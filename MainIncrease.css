@@ -1,0 +1,31 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 400vh;
+    width: 100%;
+}
+
+section {
+    background-color: #eee;
+    width: 60%;
+    height: 20%;
+    margin: 8vh auto;
+    position: relative
+}
+
+.three .nums {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.three .nums .num {
+    background-color: #ffc107;
+    padding: 8px;
+    border-radius: 8px;
+    margin-left: 25px;
+}
